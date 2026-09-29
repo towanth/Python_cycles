@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Страница-1" id="hLAEwI-eR3WudUde-Eq_">
-    <mxGraphModel dx="551" dy="1737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="459" dy="1642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,17 +22,16 @@
             <mxPoint x="560" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RVgKuzf4Y9tLuMaUoV4I-8" edge="1" parent="1" source="RVgKuzf4Y9tLuMaUoV4I-47" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="RVgKuzf4Y9tLuMaUoV4I-18" value="">
+        <mxCell id="RVgKuzf4Y9tLuMaUoV4I-8" edge="1" parent="1" source="RVgKuzf4Y9tLuMaUoV4I-47" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" target="RVgKuzf4Y9tLuMaUoV4I-3" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
               <mxPoint x="530" y="1090" />
               <mxPoint x="600" y="1090" />
-              <mxPoint x="710" y="1090" />
-              <mxPoint x="710" y="970" />
-              <mxPoint x="710" y="200" />
+              <mxPoint x="700" y="1090" />
+              <mxPoint x="700" y="320" />
             </Array>
-            <mxPoint x="520" y="1130" as="sourcePoint" />
-            <mxPoint x="576.1999999999998" y="230.00000000000023" as="targetPoint" />
+            <mxPoint x="530" y="1120" as="sourcePoint" />
+            <mxPoint x="570" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RVgKuzf4Y9tLuMaUoV4I-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;rotation=0;" value="&lt;div&gt;x_start = - 10&lt;/div&gt;&lt;div&gt;x_end = 8&lt;/div&gt;&lt;div&gt;dx = 0.5&lt;/div&gt;&lt;div&gt;x = x_start&lt;/div&gt;" vertex="1">
@@ -50,10 +49,10 @@
             <mxPoint x="740" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RVgKuzf4Y9tLuMaUoV4I-18" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;rotation=0;" value="Вывод&lt;br&gt;x | y" vertex="1">
+        <mxCell id="RVgKuzf4Y9tLuMaUoV4I-18" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;rotation=0;" value="Вывод&lt;br&gt;X | Y" vertex="1">
           <mxGeometry height="80" width="120" x="470" y="160" as="geometry" />
         </mxCell>
-        <mxCell id="RVgKuzf4Y9tLuMaUoV4I-19" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rotation=0;" value="-10 &amp;lt;= x &amp;lt;= 0" vertex="1">
+        <mxCell id="RVgKuzf4Y9tLuMaUoV4I-19" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rotation=0;" value="если -10&amp;lt;=x&amp;lt;=0" vertex="1">
           <mxGeometry height="80" width="120" x="470" y="370" as="geometry" />
         </mxCell>
         <mxCell id="RVgKuzf4Y9tLuMaUoV4I-21" edge="1" parent="1" source="RVgKuzf4Y9tLuMaUoV4I-26" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="RVgKuzf4Y9tLuMaUoV4I-19" value="">
@@ -66,16 +65,16 @@
             <mxPoint x="530" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RVgKuzf4Y9tLuMaUoV4I-24" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;rotation=0;" value="Вывод&lt;br&gt;x, -0.5x - 3" vertex="1">
+        <mxCell id="RVgKuzf4Y9tLuMaUoV4I-24" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;rotation=0;" value="Вывод&lt;br&gt;x, -1/2x - 3" vertex="1">
           <mxGeometry height="80" width="120" x="530" y="510" as="geometry" />
         </mxCell>
-        <mxCell id="RVgKuzf4Y9tLuMaUoV4I-26" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rotation=0;" value="0 &amp;lt; x &amp;lt;= 3" vertex="1">
+        <mxCell id="RVgKuzf4Y9tLuMaUoV4I-26" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rotation=0;" value="если 0&amp;lt;x&amp;lt;=3" vertex="1">
           <mxGeometry height="80" width="120" x="410" y="510" as="geometry" />
         </mxCell>
         <mxCell id="RVgKuzf4Y9tLuMaUoV4I-32" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;rotation=0;" value="Вывод&lt;br&gt;&lt;div&gt;x, -sqrt(9-x&lt;sup&gt;2&lt;/sup&gt;)&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="120" x="470" y="650" as="geometry" />
         </mxCell>
-        <mxCell id="RVgKuzf4Y9tLuMaUoV4I-33" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rotation=0;" value="3 &amp;lt; x &amp;lt;= 6" vertex="1">
+        <mxCell id="RVgKuzf4Y9tLuMaUoV4I-33" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rotation=0;" value="если 3&amp;lt;x&amp;lt;=6" vertex="1">
           <mxGeometry height="80" width="120" x="350" y="650" as="geometry" />
         </mxCell>
         <mxCell id="RVgKuzf4Y9tLuMaUoV4I-35" edge="1" parent="1" source="RVgKuzf4Y9tLuMaUoV4I-41" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="RVgKuzf4Y9tLuMaUoV4I-33" value="">
@@ -88,7 +87,7 @@
             <mxPoint x="470" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RVgKuzf4Y9tLuMaUoV4I-37" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;rotation=0;" value="&lt;div&gt;Вывод&lt;/div&gt;&lt;div&gt;x, sqrt(9 - (x - 6)&lt;sup&gt;2&lt;/sup&gt;)&lt;/div&gt;" vertex="1">
+        <mxCell id="RVgKuzf4Y9tLuMaUoV4I-37" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;rotation=0;" value="&lt;div&gt;Вывод&lt;/div&gt;&lt;div&gt;x, sqrt(9 - (x-6)&lt;sup&gt;2&lt;/sup&gt;)&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="120" x="410" y="790" as="geometry" />
         </mxCell>
         <mxCell id="RVgKuzf4Y9tLuMaUoV4I-41" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;rotation=0;" value="&lt;div&gt;Вывод&lt;/div&gt;&lt;div&gt;x, 0&amp;nbsp;&lt;/div&gt;" vertex="1">
